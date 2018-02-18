@@ -1,0 +1,49 @@
+/* add your CSS here */
+.cat {
+    font-style: italic;
+    padding-left: 20px;
+}
+
+.fact {
+   border-style: solid;
+   border-width: 1px;
+   padding: 20px;
+}
+.NotDot {
+    list-style-type: none;
+}
+
+.card {
+   border-style: solid;
+   border-width: 1px;
+   padding: 20px;
+   width: 350px;
+}
+
+img {
+  width: 300px;
+  padding: 20px 0px;
+  margin: auto;
+  display: block;
+  border-radius: 70px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.description {
+  padding-left: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+div:not(.fact) {
+  box-shadow: 5px 5px 5px #888888;
+}
+
+.cent {
+  text-align: center;
+}
